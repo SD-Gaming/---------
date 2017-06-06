@@ -1,0 +1,226 @@
+.border-bottom {
+	border-bottom: 1px solid rgb(238, 238, 238);
+}
+a:hover {
+	text-decoration: none;
+}
+/*导航样式*/
+.navbar-max {
+	background-color: #f1f1f1;
+}
+.h1-logo-text {
+	background:url(../img/logo.png) 0 center no-repeat;
+	text-indent: -999px;
+    margin: 0;
+    width: 150px;
+    height: 14px;
+}
+/*头部样式*/
+.header-first {
+	margin-top: 50px;
+	text-align: center;
+	padding: 40px 15px;
+}
+.header-first h2 {
+	font-weight: li1;
+	margin-top: 4px;
+	margin-bottom: 0;
+	color: #444;
+}
+.header-btns {
+	margin-top: 30px;
+}
+.header-btns .download-area {
+	position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+    text-decoration: none;
+}
+@media screen and (max-width: 690px) {
+	.andriod-down {
+	    display: block;
+	    margin: 15px auto;
+	    height: 60px;
+	    line-height: 58px;
+	    padding: 0 30px;
+	    background: #ff811c;
+	    font-size: 21px;
+	    border: none;
+	    color: #fff;
+	    background: -webkit-gradient(linear, left top, left bottom, from(#ff8822), to(#ff7722) );
+}
+ 	.header-btns .white {
+		background: white;
+	    color: #3584ff;
+	    border: #3584ff 1px solid;
+}
+	 .header-first .download-area {
+		display: none;
+		}
+}
+@media screen and (min-width: 691px)  {
+ 	.header-btns .andriod-down {
+		display: none;
+		}
+}
+
+.header-btns .download-btns {
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    padding: 0 15px;
+    line-height: 58px;
+    color: #3584ff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: top;
+    text-decoration: none;
+}
+.later-icon {
+	display: inline-block;
+	height: 27px;
+	width: 24px;
+    margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/download-later.png) no-repeat;
+}
+.header-btns .download-area .download-rightnow {
+    padding: 0 30px;
+    background: #ff811c;
+    font-size: 21px;
+    border: none;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff8822), to(#ff7722) );
+}
+.download-tip {
+	display: block;
+    margin: 10px auto 3px;
+    max-width: 150px;
+    font-size: 11px;
+    color: #aaa;
+}
+.download-area .download-link {
+	color: #666;
+	font-size: 13px;
+}
+.download-btns .icon-pc {
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+    margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/download-pc-icon.png) no-repeat;
+}
+.download-area .code {
+	float: left;
+	margin: 1px;
+    height: 60px;
+}
+.download-area .phone-link-area {
+	float: left;
+	margin-left: 10px;
+	margin-top: 6px;
+	text-align: left;
+}
+.download-area .donwload-phone {
+    margin: -2px 0 auto;
+    padding: 0 10px 0 0;
+    height: 64px;
+    font-size: 12px;
+}
+.download-area .boder {
+	border: 1px solid #ccc;
+}
+.download-area .boder:hover {
+	border: 1px solid #1B6D85;
+}
+.download-area .donwload-phone .phone-link-area a div {
+	height: 25px;
+	line-height: 25px;
+}
+/*网页内容样式*/
+.content-pic {
+	width: 100%;
+}
+.maxcontent {
+	margin: 80px auto;
+}
+.centent-text {
+	margin-top: 20px;
+}
+.centent-text h2 {
+	margin-top: 40px;
+    color: #333;
+    font-size: 30px;
+}
+.centent-text h3 {
+	font-size: 21px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+.centent-text p {
+    font-size: 13px;
+    color: #888;
+}
+/*页脚样式*/
+.footer-list {
+	list-style: none;
+}
+.footer-list li {
+	margin: 10px 0;
+}
+footer .footer-list a {
+	text-decoration: none;
+	color: #666;
+}
+footer h3 {
+	margin: 0;
+    font-size: 11px;
+    color: #aaa;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+.contact-address-detail {
+	list-style: none;
+	color: #aaa;
+}
+footer h4 {
+	font-size: 14px;
+    padding-left: 38px;
+    color: #716464;
+}
+footer .code-bottom {
+	padding-top: 5px;
+    padding-left: 40px;
+}
+footer .code-bottom-wx {
+	display: inline-block;
+    max-width: 86px;
+}
+footer .code-bottom span {
+	display: block;
+	color: #666;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 2px;
+}
+footer .code-bottom-wb {
+    display: inline-block;
+    max-width: 86px;
+    padding-left: 12px;
+
+}
+@media screen and (max-width: 992px) {
+	footer .about {
+		display: none;
+	}
+}
+/*copyright*/
+.copyright {
+	margin-top: 20px;
+    font-size: 11px;
+    color: #bbb;
+}
+
